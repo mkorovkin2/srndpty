@@ -1,5 +1,5 @@
 {
-  "name": "@readable/mermaid",
+  "name": "srndpty",
   "version": "0.1.0",
   "description": "Universal interactive diagram framework with JSON-first schemas. Beautiful diagrams that work everywhere.",
   "type": "module",
@@ -49,9 +49,6 @@
   },
   "bugs": {
     "url": "https://github.com/username/srndpty/issues"
-  },
-  "publishConfig": {
-    "name": "srndpty"
   },
   "sideEffects": false,
   "scripts": {

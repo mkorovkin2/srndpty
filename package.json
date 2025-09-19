@@ -1,0 +1,24 @@
+{
+  "name": "srndpty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm --filter @readable/mermaid build",
+    "build:demo": "pnpm --filter demo build",
+    "test": "pnpm --filter @readable/mermaid test",
+    "test:e2e": "pnpm --filter demo test:e2e",
+    "dev": "pnpm --filter demo dev",
+    "start:demo": "pnpm --filter demo start",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "pnpm build && changeset publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.17.0",
+  "devDependencies": {
+    "@changesets/cli": "^2.29.7"
+  }
+}
